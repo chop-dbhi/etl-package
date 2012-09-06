@@ -1,5 +1,11 @@
-src/main/resources
+## Added for github
+
+src/main/resources/
 conf/
+projects/
+
+##
+
 *.log
 *.iml
 *.ipr
