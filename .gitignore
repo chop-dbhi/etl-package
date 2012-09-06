@@ -1,3 +1,5 @@
+src/main/resources
+conf/
 *.log
 *.iml
 *.ipr
