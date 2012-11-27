@@ -2,21 +2,23 @@
 
 src/main/resources/
 conf/
-projects/
-
+etl-projects/
 ##
 
 *.log
 *.iml
 *.ipr
 *.iws
+project/project/
+project/target/
+lib/
 archive/
 documents/
 target/
-projects/audgendb/transforms/conf
-projects/audgendb/extractions/conf
-projects/audgendb/load/conf
-projects/audgendb/conf
+etl-projects/audgendb/transforms/conf
+etl-projects/audgendb/extractions/conf
+etl-projects/audgendb/load/conf
+etl-projects/audgendb/conf
 rules_request_response_generator/
 extraction-source.properties  
 load-source.properties  
