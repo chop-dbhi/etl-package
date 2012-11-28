@@ -6,9 +6,9 @@ assemblySettings
 
 //standard options ------------------------------
 
-name := "DataExpress"
+name := "etl-package"
 
-version := "0.9.0.3"
+version := "0.0.0.1"
 
 organization := "edu.chop.cbmi"
 
@@ -16,7 +16,7 @@ scalaVersion := "2.9.1"
 
 //assembly options
 
-jarName in assembly <<=version("DataExpress-" + _ + "-jar-with-dependencies.jar")
+jarName in assembly <<=version("etl-package-" + _ + "-jar-with-dependencies.jar")
 
 test in assembly := {}
 
