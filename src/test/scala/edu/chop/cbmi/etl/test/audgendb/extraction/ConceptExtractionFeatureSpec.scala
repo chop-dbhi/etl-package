@@ -15,7 +15,7 @@ import org.scalatest.matchers.ShouldMatchers
 import org.scalatest.GivenWhenThen
 
 
-import edu.chop.cbmi.etl.audgendb.extraction.ConceptExtraction
+import edu.chop.cbmi.etl.audgendb.extraction.sql.ConceptExtraction
 
 
 @RunWith(classOf[JUnitRunner])
